@@ -152,7 +152,7 @@ function move(keyCode) {
         flag = false  //标记本次移动结束
 
 
-    }, 500)
+    }, 150)
 
 
 }
