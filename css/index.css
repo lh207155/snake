@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#map{
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    position: relative;
+    border: blue 10px solid;
+    background-color: aqua;
+}
+#snake{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+}
+.snakeNode{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    /*transition: 200ms;*/
+}
+#food{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
